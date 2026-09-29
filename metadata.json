@@ -1,0 +1,6 @@
+{
+  "name": "CSApti - Competitive Aptitude Arena",
+  "description": "Responsive full-stack competitive aptitude game with speed scoring, daily grind challenges, and real-time class leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
