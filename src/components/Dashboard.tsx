@@ -6,7 +6,7 @@ import { Users, Globe, ArrowRight, Flame, Award, Clock, BookOpen } from 'lucide-
 interface DashboardProps {
   user: UserProfile;
   todayFlags: SolvedTodayFlags | null;
-  onSelectOptionA: () => void; // Dominate Class
+  onSelectOptionA: () => void; 
   onSelectOptionB: () => void; // Dominate Everyone (triggers "Sorry, under construction note by shreesha")
   onSelectPractice: () => void; // Practice Arena (Study & Tips)
   onOpenProfile: () => void;
