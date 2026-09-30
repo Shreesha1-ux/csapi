@@ -7,8 +7,8 @@ interface DashboardProps {
   user: UserProfile;
   todayFlags: SolvedTodayFlags | null;
   onSelectOptionA: () => void; 
-  onSelectOptionB: () => void; // Dominate Everyone (triggers "Sorry, under construction note by shreesha")
-  onSelectPractice: () => void; // Practice Arena (Study & Tips)
+  onSelectOptionB: () => void; 
+  onSelectPractice: () => void; 
   onOpenProfile: () => void;
 }
 
