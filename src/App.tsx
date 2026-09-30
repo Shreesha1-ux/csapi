@@ -27,13 +27,7 @@ export default function App() {
   >('dashboard');
   const [todayFlags, setTodayFlags] = useState<SolvedTodayFlags | null>(null);
 
-  /**
-   * ============================================================================
-   * 1. LEADERBOARD STATE INITIALIZATION (STRICT REQUIREMENT)
-   * Must be initialized strictly as an empty array: `[]`
-   * Zero dummy records or placeholder objects.
-   * ============================================================================
-   */
+  
   const [leaderboard, setLeaderboard] = useState<LeaderboardUser[]>([]);
   const [isRefreshingLeaderboard, setIsRefreshingLeaderboard] = useState(false);
 
